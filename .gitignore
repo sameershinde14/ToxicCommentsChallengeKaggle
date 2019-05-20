@@ -1,0 +1,7 @@
+.vscode/launch.json
+.vscode/settings.json
+*.pyc
+data/train.csv
+data/test_labels.csv
+data/test.csv
+data/sample_submission.csv
