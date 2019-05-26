@@ -221,7 +221,7 @@ print(filtered_train_x[0], "\n")
 print(lemmatized_train_x[0], "\n")
 print(stemmed_train_x[0], "\n")
 
-#%%
+# %%
 print(valid_x[0], "\n")
 print(filtered_valid_x[0], "\n")
 print(lemmatized_valid_x[0], "\n")

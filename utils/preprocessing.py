@@ -64,9 +64,9 @@ def replace_numbers(sentence):
 
 def clean(sentences):
     for index, sentence in enumerate(sentences):
-        sentence = replace_numbers(sentence)
-        sentence = remove_punctuations(sentence)
         words = word_tokenize(sentence)
+        words = map(replace_numbers, words)
+        words = map(remove_punctuations, words)
         words = map(remove_non_ascii, words)
         words = map(lambda x: x.lower(), words)
         sentences[index] = " ".join(words)
