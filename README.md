@@ -37,8 +37,11 @@ The following are required to run the notebooks:
 * > WordNet Corpus
 
 ### 4. Notebooks to run
-1. Decision Tree: Decision-Tree.ipynb
-2. Logsitic Regression: Logsitic-Regression.ipynb
-3. LSTM: LSTM_Empiricial_Analysis.ipynb
-4. XGBoost: XGBoost_with_Processed_data_Latest.ipynb
+1. Data Visualization
+2. Data Preprocessing for Decision Tree, Logistic Regression and Ensemble methods: Preprocessing-with -NLTK.ipynb
+3. Data-Decision Tree: Decision-Tree.ipynb
+4. Logsitic Regression: Logsitic-Regression.ipynb
 5. Ensemble: Voting-ensemble.ipynb
+6. XGBoost: XGBoost_with_Processed_data_Latest.ipynb
+7. Data Preprocessing for LSTM: Preprocessing-with-Dataframe.ipynb
+8. LSTM: LSTM_Empiricial_Analysis.ipynb
